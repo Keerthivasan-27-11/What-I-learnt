@@ -1,0 +1,8 @@
+Java Primitive and Reference(Non-Primitive) datatypes
+
+In java the Primitive datatype
+    This datatype stores the value in the variable
+	int, float, double, short, long, char, byte, etc.
+In java the Reference datatype 
+    This datatype stores the address of the value in the variable.
+	Some of the Reference datatype are String, Array, class, Interface, object etc.
