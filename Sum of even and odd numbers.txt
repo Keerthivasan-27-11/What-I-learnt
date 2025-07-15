@@ -1,0 +1,22 @@
+Sum of even and odd numbers
+
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        int even=0,odd=0;
+        Scanner num=new Scanner(System.in);
+        System.out.print("Enter the last value of the series :");
+        int a=num.nextInt();
+        for(int i=1;i<=a;i++){
+            if(i%2==0){
+                even+=i;
+            }
+            else{
+                odd+=i;
+            }
+        }
+        System.out.println("The even numbers are :%d\n"+even);
+        System.out.println("The odd numbers are :%d\n"+odd);
+    }
+}
