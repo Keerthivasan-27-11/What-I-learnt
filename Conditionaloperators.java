@@ -1,6 +1,9 @@
 package myproject;
 import java.util.Scanner;
 public class Conditionaloperators {
+
+
+	
 	public static void main(String[] args) {
 		Scanner num = new Scanner(System.in);
 		System.out.print("Enter the value of a :");
